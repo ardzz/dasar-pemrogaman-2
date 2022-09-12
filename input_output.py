@@ -40,11 +40,16 @@ def identify_number(number) -> int or float:
 
 def calculate(calculation_name: str, operation: callable):
     try:
-        bilangan_pertama = input_number("Inputkan bilangan pertama: ")
-        bilangan_kedua = input_number("Inputkan bilangan kedua: ")
+        bilangan_pertama = input_number(
+            """
+    Inputkan bilangan pertama: """)
+        bilangan_kedua = input_number(
+            """
+    Inputkan bilangan kedua: """)
         kalkulasi = operation(bilangan_pertama, bilangan_kedua)
         print(
-            "Hasil {} dari bilangan {} dan {} adalah {}".format(calculation_name, bilangan_pertama, bilangan_kedua, kalkulasi))
+            """
+    Hasil {} dari bilangan {} dan {} adalah {}""".format(calculation_name, bilangan_pertama, bilangan_kedua, kalkulasi))
     except ValueError or TypeError:
         print("Terjadi error, hanya diperbolehkan menginputkan bilangan bulat dan bilangan pecahan")
 
