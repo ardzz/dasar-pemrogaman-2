@@ -1,6 +1,6 @@
 ## DASAR PEMROGRAMAN JOB SHEET 2: PERINTAH INPUT-OUTPUT
 <center>
-<img src="https://github.com/ardzz/dasar-pemrogaman-2/raw/master/images/logo-polines.png">
+<img src="https://github.com/ardzz/dasar-pemrogaman-2/raw/master/images/logo-polines.png" alt="Logo Polines">
 </center>
 
 
