@@ -1,4 +1,10 @@
+import os
+
+
 def select_menu():
+    menu = ["Penjumlahan", "Pengurangan", "Perkalian"
+            "Pembagian", "Modulus", "Exponentiation"
+            "Floor division", "Keluar"]
     return input("""
     Program kalkulator sederhana - Challenge 5
 
@@ -41,3 +47,10 @@ def calculate(calculation_name: str, operation: callable):
             "Hasil {} dari bilangan {} dan {} adalah {}".format(calculation_name, bilangan_pertama, bilangan_kedua, kalkulasi))
     except ValueError or TypeError:
         print("Terjadi error, hanya diperbolehkan menginputkan bilangan bulat dan bilangan pecahan")
+
+
+def clear_screen():
+    if os.name == 'posix':
+        os.system('clear')
+    else:
+        os.system('cls')
