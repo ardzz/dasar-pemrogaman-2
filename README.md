@@ -1,7 +1,8 @@
 ## DASAR PEMROGRAMAN JOB SHEET 2: PERINTAH INPUT-OUTPUT
-<center>
-<img src="https://github.com/ardzz/dasar-pemrogaman-2/raw/master/images/logo-polines.png" alt="Logo Polines" width="300" height="300">
-</center>
+
+<p align="center">
+    <img src="https://github.com/ardzz/dasar-pemrogaman-2/raw/master/images/logo-polines.png" alt="Logo Polines" width="300" height="300">
+</p>
 
 
 #### Dibuat dan disusun oleh
