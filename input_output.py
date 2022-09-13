@@ -3,8 +3,8 @@ import os
 
 def select_menu():
     menu = ["Penjumlahan", "Pengurangan", "Perkalian"
-            "Pembagian", "Modulus", "Exponentiation"
-            "Floor division", "Keluar"]
+                                          "Pembagian", "Modulus", "Exponentiation"
+                                                                  "Floor division", "Keluar"]
     return input("""
     Program kalkulator sederhana - Challenge 5
 
