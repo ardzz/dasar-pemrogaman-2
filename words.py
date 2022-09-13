@@ -79,8 +79,3 @@ def count_each_consonant_from_word(word: str) -> dict:
             else:
                 count[char] = 1
     return count
-
-
-def print_ordered_list_from_list(list: list) -> None:
-    for index, item in enumerate(list):
-        print("{}. {}".format(index + 1, item))
